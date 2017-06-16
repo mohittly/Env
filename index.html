@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Environment App</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+
+	<!--Initialising javascript folders-->
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/extra.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Initialising icon font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<script type="text/javascript">
+		$(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+		    $('.modal').modal();
+		  });
+	</script>
+
+</head>
+<body>
+
+<div class="row">
+	<div class="col s5 offset-s1">
+		<img src="RD.png" style="margin-top:10%">
+	</div>
+	<div class="col s6">
+		<center><a class="waves-effect waves-light btn" style="margin-top:10%;background-color:#e74c3c" ><i class="material-icons right">done</i>Login</a></center>
+	</div>
+</div>
+
+<div class="row">
+
+	<div class="fixed-action-btn toolbar">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">add</i>
+    </a>
+    <ul>
+      <li class="waves-effect waves-light"><a href="#about"><i class="material-icons">info_outline</i></a></li>
+      <li class="waves-effect waves-light"><a href="#settings"><i class="material-icons">settings</i></a></li>
+      <li class="waves-effect waves-light"><a href="#contri"><i class="material-icons">publish</i></a></li>
+      <li class="waves-effect waves-light"><a href="#call"><i class="material-icons">call</i></a></li>
+    </ul>
+  </div>
+	
+</div>
+
+<!-- ____________________________Modal Begin___________________________ -->
+
+<div id="about" class="modal">
+    <div class="modal-content">
+      <h4>About Us</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
+    </div>
+  </div>
+
+  <div id="settings" class="modal">
+    <div class="modal-content">
+      <h4>Settings</h4>
+      <p>Arrange articles by,</p>
+      		<form action="#">
+			    <p>
+			      <input name="group1" type="radio" id="test1" />
+			      <label for="test1"><i class="material-icons left">trending_up</i>Most Trending</label>
+			    </p>
+			    <p>
+			      <input name="group1" type="radio" id="test2" />
+			      <label for="test2"><i class="material-icons left">trending_down</i>Least Trending</label>
+			    </p>
+			    <p>
+			      <input name="group1" type="radio" id="test3"  />
+			      <label for="test3"><i class="material-icons left">trending_flat</i>Recent</label>
+			    </p>
+  			</form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Submit</a>
+    </div>
+  </div>
+
+    <div id="contri" class="modal">
+    <div class="modal-content">
+      <h4>Contribute To Us</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
+    </div>
+  </div>
+
+  <div id="call" class="modal">
+    <div class="modal-content">
+      <h4>Contact Us</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
+    </div>
+  </div>
+
+  <!-- _______________________________________________Modals End________________________________________________________ -->
+
+<div class="row">
+<div class="col s12 offset-m1 m3">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="http://materializecss.com/images/office.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">For more information.</a></p><br>
+      <p><a href="#"><i class="material-icons" style="color:#7f8c8d">thumb_up</i></a>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;<a href="#" style="color:#7f8c8d"><i class="material-icons">thumb_down</i></a>&nbsp;&nbsp;&nbsp;0</p><br>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this article that is only revealed once clicked on.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col s12 m3">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="http://materializecss.com/images/office.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">For more information.</a></p><br>
+      <p><a href="#"><i class="material-icons" style="color:#7f8c8d">thumb_up</i></a>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;<a href="#" style="color:#7f8c8d"><i class="material-icons">thumb_down</i></a>&nbsp;&nbsp;&nbsp;0</p><br>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this article that is only revealed once clicked on.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col s12 m3">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="http://materializecss.com/images/office.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">For more information.</a></p><br>
+      <p><a href="#"><i class="material-icons" style="color:#7f8c8d">thumb_up</i></a>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;<a href="#" style="color:#7f8c8d"><i class="material-icons">thumb_down</i></a>&nbsp;&nbsp;&nbsp;0</p><br>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this article that is only revealed once clicked on.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="row">
+<div class="col s12 offset-m1 m3">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="http://materializecss.com/images/office.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">For more information.</a></p><br>
+      <p><a href="#"><i class="material-icons" style="color:#7f8c8d">thumb_up</i></a>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;<a href="#" style="color:#7f8c8d"><i class="material-icons">thumb_down</i></a>&nbsp;&nbsp;&nbsp;0</p><br>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this article that is only revealed once clicked on.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col s12 m3">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="http://materializecss.com/images/office.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">For more information.</a></p><br>
+      <p><a href="#"><i class="material-icons" style="color:#7f8c8d">thumb_up</i></a>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;<a href="#" style="color:#7f8c8d"><i class="material-icons">thumb_down</i></a>&nbsp;&nbsp;&nbsp;0</p><br>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this article that is only revealed once clicked on.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col s12 m3">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="http://materializecss.com/images/office.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">For more information.</a></p><br>
+      <p><a href="#" ><i class="material-icons" style="color:#7f8c8d">thumb_up</i></a>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;<a href="#" style="color:#7f8c8d"><i class="material-icons">thumb_down</i></a>&nbsp;&nbsp;&nbsp;0</p><br>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this article that is only revealed once clicked on.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
